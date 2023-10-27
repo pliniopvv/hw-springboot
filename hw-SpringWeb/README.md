@@ -20,9 +20,9 @@ public class IndexController {
 
 Classes criadas:
 
-- [X] Evento.java
-- [X] EventoController.java
-- [X] formEvento.html
+- [x] Evento.java
+- [x] EventoController.java
+- [x] formEvento.html
 
 ## Curso Spring Boot aula 03: Criando e configurando um banco de dados MySQL
 <a href="https://www.youtube.com/watch?v=FHRYijYhJYA&list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D&index=3">Ir para o tutorial</a>
@@ -31,7 +31,7 @@ Banco de dados trocado do MySQL para o H2 Database conforme documentação ofici
 
 Adicionado as dependências:
 
-- [X] Spring Boot – H2 Database
+- [x] Spring Boot – H2 Database
 
 
 
