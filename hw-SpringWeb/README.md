@@ -26,3 +26,14 @@ Classes criadas:
 
 fonte: https://www.youtube.com/watch?v=8nw7qeCr1MM&list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D&index=2
 
+## Curso Spring Boot aula 03: Criando e configurando um banco de dados MySQL
+
+Banco de dados trocado do MySQL para o H2 Database conforme documentação oficial do H2DB.
+
+Adicionado as dependências:
+
+- [X] Spring Boot – H2 Database
+
+fonte: https://www.youtube.com/watch?v=FHRYijYhJYA&list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D&index=3
+
+
