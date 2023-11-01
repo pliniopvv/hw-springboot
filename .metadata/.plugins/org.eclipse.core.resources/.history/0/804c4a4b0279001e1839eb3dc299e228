@@ -1,0 +1,8 @@
+## Accessing Data with JPA
+[Tutorial Oficial](https://spring.io/guides/gs/accessing-data-jpa/)
+
+Passos:
+- Criar uma classe com @Entity
+- ID com `@Id` e `@GeneratedValue(strategy=GenerationType.AUTO)`
+- Tudo pronto para criação de Repository's com a interface `CrudRepository<NOME-DA-CLASSE, Long>`
+- Nenhuma configuração necessária para configurar o H2.

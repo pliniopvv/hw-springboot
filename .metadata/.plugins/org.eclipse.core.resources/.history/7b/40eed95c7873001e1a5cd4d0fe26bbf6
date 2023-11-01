@@ -1,0 +1,22 @@
+package br.com.pvv.hw.batch;
+
+import org.springframework.batch.item.file.FlatFileItemReader;
+import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+
+@Configuration
+public class BatchConfiguration {
+	@Bean
+	public FlatFileItemReader<Person> reader() {
+		return new FlatFileItemReaderBuilder<Person>()
+				.name("personItemReader")
+				.resource(new ClassPathResource("sample-data.csv"))
+				.delimited()
+				.names("firstName", "lastName")
+				.targetType(Person.class)
+				.build();
+	}
+	
+}
