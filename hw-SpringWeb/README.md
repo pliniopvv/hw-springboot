@@ -44,3 +44,23 @@ Adicionado as dependências:
 
 - Atualização do arquivo template `index`
 - Adição de `th:each="evento : ${eventos}"` em tag div e configuração no método.
+
+## Live Coding: CRUD com Java Spring - Aprendendo na prática
+[Ir para o tutorial](https://www.youtube.com/watch?v=tP6wtEaCnSI&t=408s)
+
+Código refatorado com as exigências para a realização do conteúdo do tutorial informado.
+- Arquivos no pacote `fk` de Fernada Kipper
+-- Criado entidade `Product`, controlador de ORM e API REST.
+- implementado `@PostMapping`
+- implementado `@GetMapping`
+- iniciado `@PutMapping`
+
+## Live Coding: Continuação API REST com Java Spring
+[Ir para continuação](https://www.youtube.com/watch?v=HanaSiIlMVY)
+
+... Refatoração continuará no package `fk`
+- Explicado sobre a tag `@Transactional` 14:38.
+- corrigido erro no `@PutMapping`
+- criação do método `findAllByActiveTrue` no repositório `ProductRepository`
+- implementado `@DeleteMapping`
+
