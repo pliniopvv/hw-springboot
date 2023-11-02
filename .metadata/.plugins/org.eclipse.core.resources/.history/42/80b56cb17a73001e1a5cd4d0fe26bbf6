@@ -1,5 +1,0 @@
-package br.com.pvv.hw.batch;
-
-public class JobCompletionNotificationListener {
-
-}
