@@ -39,5 +39,8 @@ Adicionado as dependências:
 - Criação da classe `EventoRepository` extendida da `CrudRepository` do Spring JPA;
 - :white_check_mark: Recebendo entidade JPA `Evento` via formulário do método POST.
 
+## Curso Spring Boot aula 05: Realizando buscas no banco de dados MySQL
+[Ir para o tutorial](https://www.youtube.com/watch?v=1hMDBrvGpEY)
 
-
+- Atualização do arquivo template `index`
+- Adição de `th:each="evento : ${eventos}"` em tag div e configuração no método.
