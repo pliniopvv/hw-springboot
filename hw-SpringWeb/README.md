@@ -33,6 +33,11 @@ Adicionado as dependências:
 
 - :white_check_mark: Spring Boot – H2 Database
 
+## Curso Spring Boot aula 04: Salvando dados do formulário no banco de dados
+[Ir para o tutorial](https://www.youtube.com/watch?v=miN5ygzFhtI)
+
+- Criação da classe `EventoRepository` extendida da `CrudRepository` do Spring JPA;
+- :white_check_mark: Recebendo entidade JPA `Evento` via formulário do método POST.
 
 
 
