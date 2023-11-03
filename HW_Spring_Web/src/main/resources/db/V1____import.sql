@@ -1,0 +1,1 @@
+INSERT INTO product (id, name, price_in_cents, active) VALUES (null, "Calça", 50000, true)
