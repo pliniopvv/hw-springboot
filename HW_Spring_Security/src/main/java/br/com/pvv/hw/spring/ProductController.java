@@ -20,10 +20,12 @@ public class ProductController {
 	public ProductRepository repository;
 
 	@PostMapping
-	public ResponseEntity<String> postProduct(@RequestBody RequestProduct body) {
+	public ResponseEntity<String> postProduct(@RequestBody @Valid RequestProduct body) {
 		Product newProduct = body.toProduct();
+		
 
-		this.repository.save(newProduct);
+		Product p = this.repository.save(newProduct);
+		System.out.println(newProduct.getID());
 		return ResponseEntity.ok().build();
 	}
 
