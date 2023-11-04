@@ -1,4 +1,4 @@
-package br.com.pvv.hw.spring;
+package br.com.pvv.hw.spring.domain.product;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
