@@ -1,0 +1,1 @@
+INSERT INTO product (name, price) VALUES ("Camisa", 1000)
