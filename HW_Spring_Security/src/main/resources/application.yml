@@ -18,3 +18,7 @@ spring:
         web-allow-others: true
   allowed:
     resources: /h2-console/**
+    
+api:
+  security:
+    token.secret: ${JWT_SECRET:my-secret-key}
