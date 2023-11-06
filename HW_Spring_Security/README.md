@@ -3,6 +3,8 @@
 
 Tutorial de introdução ao Spring Security aplicado ao Spring Web.
 
+Observações relevantes:
+
 - O arquivo `import.sql` ( e o `data.sql` ) é executado pelo Spring Data JPA no boot da aplicação.
 A diferença entre os dois é que o import.sql é executado após a criação das tabelas pelo JPA.
 - Criado o objeto `User` que implementa a interface `UserDetails` do Spring Security, classe responsável pela autenticação do usuário logado.
