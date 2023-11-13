@@ -64,3 +64,8 @@ Código refatorado com as exigências para a realização do conteúdo do tutori
 - criação do método `findAllByActiveTrue` no repositório `ProductRepository`
 - implementado `@DeleteMapping`
 
+## Uploading Files
+[Ir para tutorial](https://spring.io/guides/gs/uploading-files/)
+
+- Os endereços mapeados no root `/` foram redirecionados para `/springUpload` para evitar conflito com os outros tutoriais executados anteriormente neste projeto.
+
